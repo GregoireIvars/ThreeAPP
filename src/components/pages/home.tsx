@@ -1,13 +1,11 @@
-// import Layout from "../communs/layout";
-import ThreeScene from "../communs/three";
-
+import Layout from "../communs/layout";
 
 const Home = () => {
     return (
-        <>
-            <ThreeScene />
-        </>
-    )
-}
+        <Layout>
+            <h1 className="text-4xl font-bold text-center mt-10">Home</h1>
+        </Layout>
+    );
+};
 
 export default Home;
